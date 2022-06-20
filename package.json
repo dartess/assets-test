@@ -1,0 +1,27 @@
+{
+  "name": "assets-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dartess/assets-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dartess/assets-test/issues"
+  },
+  "homepage": "https://github.com/dartess/assets-test#readme",
+  "dependencies": {
+    "got": "^12.1.0",
+    "pureimage": "^0.3.8"
+  }
+}

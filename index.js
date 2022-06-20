@@ -24,7 +24,7 @@ data.forEach(({ portrait, landscape, scaleFactor }) => {
     })
 });
 
-console.log([...res].sort().join('\n'));
+console.log([...res].join('\n'));
 
 async function generateImage(width, height, scaleFactor, orientation, isDark) {
     const img = PImage.make(width, height);
